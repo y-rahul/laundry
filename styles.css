@@ -1,0 +1,128 @@
+body{
+	font-family: 'PT Serif', serif;
+	background-color: #33bbff;
+
+}
+.div-one{
+	color: #0033cc;
+	line-height: 0.4rem;
+	
+}
+.div-one h1{
+	font-size: 200%;
+	text-transform: uppercase;
+}
+.div-one p{
+	font-size: 150%;
+	font-weight: 50;
+	
+}
+.section-class{
+	position: relative;
+	overflow: hidden;
+	padding: 50px;
+	width: 80%;
+	margin:auto;
+	background-color: white;
+	box-shadow: 7px 7px rgb(0, 77, 128);
+	background-image: url(wash.jpg);
+	z-index: -2;	
+}
+.logos i{
+	padding-top: 5px;
+	padding-right: 8px;
+}
+.span-class-welcome{
+	text-transform: uppercase;
+	font-size: 50px;
+	font-weight: 400;
+}
+.span-class-wash{
+	font-size: 30px;
+	font-weight: 100;
+}
+.sign {
+	font-weight: 1000;
+	color: #0033cc;
+	text-decoration: none;
+}
+.remember{
+	font-size: 10px;
+}
+.forgot{
+	padding-left: 30px;
+	font-size: 10px;
+}
+.button{
+	background-color: #0033cc;
+	color:#ffffff;
+	width: 180px;
+	height: 30px;
+	border-radius: 10px;
+	border:none;
+}
+.container{
+	padding-left: 40px;
+	width: 960px;
+	margin: auto;	
+}
+.div-two input{
+      border: hidden;
+      border-bottom-style: groove;
+      background-color: none;
+  }
+  img {
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+}
+.corners{
+	position: absolute;
+	border-radius: 50%;
+  	background: #ffffff;
+  	width: 100em;
+  	height: 100em;
+  	right: 30em;
+  	top:-15em;
+  	z-index: -1;
+
+
+}
+@media screen and (max-width: 768px){
+	.section-class{
+	padding: 50px;
+	margin: auto;
+	background-color: white;
+	box-shadow: 7px 7px rgb(0, 77, 128);
+	font-size: 12px;
+}
+	.span-class-welcome{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 400;
+}
+.span-class-wash{
+	font-size: 20px;
+	font-weight: 100;
+}
+.sign {
+	font-weight: 1000;
+	color: #0033cc;
+	text-decoration: none;
+}
+.remember{
+	font-size: 8px;
+}
+.forgot{
+	padding-left: 30px;
+	font-size: 8px;
+}
+.button{
+	background-color: #0033cc;
+	color:#ffffff;
+	width: 150px;
+	height: 25px;
+	border-radius: 10px;
+	border:none;
+}
+
